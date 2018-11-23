@@ -1,0 +1,17 @@
+{
+  "name": "devcombo-ekh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merixstudio/devcombo-ekh.git"
+  },
+  "author": "Dominik Łochyński & Marcin Majewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/merixstudio/devcombo-ekh/issues"
+  },
+  "homepage": "https://github.com/merixstudio/devcombo-ekh#readme"
+}
