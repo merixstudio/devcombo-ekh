@@ -13,5 +13,10 @@
   "bugs": {
     "url": "https://github.com/merixstudio/devcombo-ekh/issues"
   },
-  "homepage": "https://github.com/merixstudio/devcombo-ekh#readme"
+  "homepage": "https://github.com/merixstudio/devcombo-ekh#readme",
+  "dependencies": {
+    "nodemon": "^1.18.6",
+    "sequelize": "^4.41.2",
+    "sqlite3": "^4.0.4"
+  }
 }
