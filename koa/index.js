@@ -2,12 +2,14 @@ const Koa = require('koa');
 const BodyParser = require('koa-bodyparser');
 const respond = require('koa-respond');
 const logger = require('koa-logger');
+const cors = require('@koa/cors');
 
 const routes = require('./routes/index');
 
 const app = new Koa();
 
 app.use(logger());
+app.use(cors());
 app.use(BodyParser({
     onerror: (err, ctx) => {
       ctx.throw(422, 'body parse error');

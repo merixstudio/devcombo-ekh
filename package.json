@@ -22,6 +22,7 @@
   "homepage": "https://github.com/merixstudio/devcombo-ekh#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "@koa/cors": "^2.2.2",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
     "koa-logger": "^3.2.0",
